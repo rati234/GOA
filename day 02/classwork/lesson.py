@@ -1,0 +1,2 @@
+name = "rati"
+print (name)
