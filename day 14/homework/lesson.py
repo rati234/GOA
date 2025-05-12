@@ -16,21 +16,20 @@
 
 #სიები (LIST) ცვლადია რადგან სია არის ისეთი მონაცემთა სტრუქტურა სადაც ელემენტების პირდაპირი ცვლილება შეგვიძლია 
 
+list = [] 
 
-# list = [] 
-
-# for _ in  range (8):
-#     value = input("please enter your name and surname: ")
-#     value = input("age: ")
-#     value = input("date of birth: ") 
-#     value = input("height and your living adress: ")
-#     value = input("what sport you like and whats your job: ") 
-#     list.append(value) 
-# print("your input is:", list) 
-
+for _ in  range (8):
+    value = input("please enter your name and surname: ")
+    value = input("age: ")
+    value = input("date of birth: ") 
+    value = input("height and your living adress: ")
+    value = input("what sport you like and whats your job: ") 
+    list.append(value) 
+    print("your input is:", list) 
 
 
-numbers = []  
+
+numbers = []   
 
 for _ in range(10):
     meaning = int(input("please enter a meaning: ")) 

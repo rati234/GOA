@@ -13,5 +13,23 @@ while user_pass != password:
 
 
 
-#for i in range(1, 21, 2):
-#    print(i) 
+for i in range(1, 21, 2):
+#     print(i) 
+
+
+
+# print("Hello World") 
+Num1 = 20
+num2 = 30
+print(Num1 + num2)   
+
+
+
+# <ol>
+#   <li>First item</li>
+#     <ul>
+#       <li>Subitem A</li>
+#       <li>Subitem B</li>
+#     </ul>
+#   <li>Second item</li>
+# </ol>

@@ -8,9 +8,5 @@
 #name = "rati"
 
 #for char in name:
-  #  print(char + ".") 
+  #  print(char + ".")                                 
 
-
-temp = 35
-ac_on = temp > 30
-print(ac_on) 

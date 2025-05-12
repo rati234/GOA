@@ -11,7 +11,7 @@
 
 my_list = [10, 11, 7, 9, 13, 44, 33, 5, 4, 14]   
 last_item = my_list[-1] #will be 14     
-print(last_item) 
+print(last_item)  
 
 
 
