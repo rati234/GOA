@@ -1,20 +1,20 @@
-# name = "Rati"
+name = "Rati"
 
-# vowels = "a, e, i, o, u," 
+vowels = "a, e, i, o, u," 
 
-# vowels_letters = [letter for letter in name if letter in vowels] 
-
-
-# if vowels_letters:
-#     print("vowels", " ". join(vowels_letters))
-# else:
-#     print("names didnt found in vowels") 
+vowels_letters = [letter for letter in name if letter in vowels] 
 
 
-#სტრინგები უცვლელია (immutable)  რადგან როცა სტრინგს ქმნი ის მეხსიერებაში ინახება ისე რომ მისი ცალკეული სიმბოლოები შეცვლადი არარის 
+if vowels_letters:
+    print("vowels", " ". join(vowels_letters))
+else:
+    print("names didnt found in vowels") 
 
 
-#სიები (LIST) ცვლადია რადგან სია არის ისეთი მონაცემთა სტრუქტურა სადაც ელემენტების პირდაპირი ცვლილება შეგვიძლია 
+სტრინგები უცვლელია (immutable)  რადგან როცა სტრინგს ქმნი ის მეხსიერებაში ინახება ისე რომ მისი ცალკეული სიმბოლოები შეცვლადი არარის 
+
+
+სიები (LIST) ცვლადია რადგან სია არის ისეთი მონაცემთა სტრუქტურა სადაც ელემენტების პირდაპირი ცვლილება შეგვიძლია 
 
 list = [] 
 
@@ -40,9 +40,28 @@ for num in numbers:
     if num % 2 == 0: 
         print(f"{num} - evem") 
 else:
-    print(f"{num} - odd")   
+    print(f"{num} - odd"
 
 
+num1 = int(input("please enter the number: "))
+
+num2 = int(input("please enter the number: "))
+
+operation = input("please enter operation: ") 
 
 
+def calculator(num1, num2, operation):
+    if operation == '+':
+        return  num1 + num2
+    elif operation == '-':
+        return  num1 - num2
+    elif operation == '*':
+        return num1 * num2
+    elif operation == '/':
+        return  num1 / num2
+    elif num2 == 0 and operation == "/":
+         return  " incorrect: we cant division numbers to zero "   
+
+
+print (calculator(num1, num2, operation))
 
